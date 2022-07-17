@@ -174,7 +174,7 @@ li{list-style: none;}
 }
 .navbar-light .navbar-nav .nav-link{
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 500 !important;
 
 }
 .navbar-light .navbar-nav .nav-link:hover,
@@ -763,7 +763,7 @@ footer {
 }
 
 .hero-img-box .hero-body .image-box .hero-img img {
-    top: 70px;
+    top: 0px;
     left: 0px;
     transform: rotate(16deg);
     -webkit-transform: rotate(16deg);
@@ -787,6 +787,14 @@ footer {
     transform: rotate(129deg);
 }
 
+ .features-box .features-img img {
+    width: 400px;
+}
+
+#about{
+   margin-bottom: 10px;
+
+}
 #about .text-content {
     position: relative;
     margin-top: 400px;
@@ -848,6 +856,10 @@ footer {
 #hero .flower-img .flower-foure {
     right: 57px;
     transform: rotate(86deg);
+}
+#about .text-content {
+    position: relative;
+    margin-top: 300px;
 }
 }
 
