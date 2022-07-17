@@ -1,0 +1,249 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 @ WaleedSalah
+ * email : eng.waled.salah@outlook.com
+ * whatsapp : 201146456167
+ */
+
+ 
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200;300;400;500;600;700;800;900&family=El+Messiri:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,700;1,900&display=swap');
+
+
+html[dir="rtl"] *,
+ *::before, 
+ *::after{
+font-family: 'Almarai', sans-serif;
+box-sizing: border-box;
+}
+
+/*-----------------------------------*\
+  #HEDER STYLE
+\*-----------------------------------*/
+
+html[dir="rtl"] .navbar-light .navbar-nav .nav-link
+{
+  
+  font-weight: 700 !important;
+}
+
+
+html[dir="rtl"] .hero-box .hero-body::before{
+    right: -20px;
+    border-left: 0 ;
+    border-right: solid var(--border-color);
+}
+
+html[dir="rtl"] .hero-box .box-text {
+    font-size: 30px;
+    font-weight: 500;
+    width: 85%;
+    color: #313131;
+}
+
+html[dir="rtl"] .btn-bg {
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+html[dir="rtl"] .hero-img-box .hero-body .image-box .hero-img img {
+    transform: rotate(-330deg);
+    -webkit-transform: rotate(-330deg);
+    -moz-transform: rotate(-330deg);
+    -ms-transform: rotate(-330deg);
+    -o-transform: rotate(-330deg);
+    left: -83px;
+}
+
+html[dir="rtl"] #hero .flower-img .flower-one {
+  right: 56px;
+}
+
+html[dir="rtl"] .specific-img::after {
+    right: 0px;
+    border-right: 3px solid var(--border-color);
+    border-left: 0px ;
+    border-top: 3px solid var(--border-color);
+}
+
+html[dir="rtl"] #about .text-content::before {
+  
+    bottom: 0;
+    right: 500px ;
+    border-left: 3px solid var(--border-color);
+    border-right: 0px;
+    border-bottom: 3px solid var(--border-color);
+}
+
+html[dir="rtl"] .desc-box ul li b {
+
+    font-weight: 600;
+
+}
+
+html[dir="rtl"] .desc-box ul li {
+  
+    margin-right: -25px;
+    
+}
+ 
+ @media (max-width: 1200px){
+   html[dir="rtl"] .container  {overflow: hidden;}
+ }
+ @media (max-width: 992px) {
+  html[dir="rtl"] .container  {overflow: hidden;}
+  html[dir="rtl"] .specific-img .brown-img,
+  html[dir="rtl"] .specific-img .red-img,
+  html[dir="rtl"] .specific-img .img-01 {
+
+    top: -10px;
+    
+  }
+
+ html[dir="rtl"] .specific-img .brown-img {
+  left: -120px;
+  }
+html[dir="rtl"] .specific-img .red-img {
+    
+  left: 0px;
+
+  }
+
+ html[dir="rtl"] .specific-img .img-01{
+    top: 0;
+    left: 130px;
+
+}
+
+ 
+}
+@media (max-width: 768px){
+  html[dir="rtl"] .container  {overflow: hidden;}
+  html[dir="rtl"] .hero-img-box .hero-body .image-box .hero-img::after {
+    width: 400px;
+    height: 400px;
+    transform: translateX(-40%);
+    left: 0;
+    -webkit-transform: translateX(-40%);
+    -moz-transform: translateX(-40%);
+    -ms-transform: translateX(-40%);
+    -o-transform: translateX(-40%);
+}
+
+html[dir="rtl"] .hero-img-box .hero-body .image-box .hero-img img {
+  left: -255px;
+  top: 0;
+  transform: rotate(330deg);
+  -webkit-transform: rotate(330deg);
+  -moz-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  -o-transform: rotate(330deg);
+}
+
+html[dir="rtl"] #hero .flower-img .flower-one {
+    right: 207px;
+    top: 15px;
+}
+html[dir="rtl"] #hero .flower-img .flower-two {
+    left: 97px;
+    
+}
+
+html[dir="rtl"] #hero .flower-img .flower-foure {
+    right: 113px;
+    bottom: 30px;
+    transform: rotate(129deg);
+}
+
+html[dir="rtl"] .features-box .features-img img {
+    
+    width: 400px;
+}
+html[dir="rtl"] .features-box h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+html[dir="rtl"] .features-box .desc {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+}
+
+ @media (max-width: 576px){
+
+  
+ html[dir="rtl"] .navbar form{
+    
+    right: 200px;
+  }
+
+
+html[dir="rtl"] .hero-box .box-text {
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+}
+
+html[dir="rtl"] .btn-bg {
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+
+html[dir="rtl"] .hero-img-box .hero-body .image-box .hero-img::after {
+     width: 300px;
+    height: 300px;
+    transform: translateX(-30%);
+    -webkit-transform: translateX(-30%);
+    -moz-transform: translateX(-30%);
+    -ms-transform: translateX(-30%);
+    -o-transform: translateX(-30%);
+}
+
+html[dir="rtl"] .hero-img-box .hero-body .image-box .hero-img img {
+    left: -86px;
+    top: 9px;
+}
+
+html[dir="rtl"] #hero .flower-img .flower-one {
+    right: 65px;
+    top: -43px;
+}
+
+html[dir="rtl"] #hero .flower-img .flower-two {
+    left: 0px;
+}
+
+html[dir="rtl"]  #hero .flower-img .flower-foure {
+    right: 5px;
+    bottom: 78px;
+}
+html[dir="rtl"]  .features-box .desc {
+    font-size: 18px;
+    font-weight: 400;
+}
+html[dir="rtl"] #about {margin-bottom: 10px;}
+html[dir="rtl"] #about .text-content {
+    position: relative;
+    margin-top: 300px;
+}
+
+
+}
+
+    
+
+
+
+
+
