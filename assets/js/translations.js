@@ -11,7 +11,7 @@ const translations = {
 
     //hero Section
     'hero-title': 'Your Healthy Partner',
-    'hero-desc': `Kareem Protein in Saudi Arabia <span><img src="assets/images/flag-icon/sa.svg" width="70"></span> Health, food, quality`,
+    'hero-desc': `Kareem Protein in Saudi Arabia <span><img src="assets/images/flag-icon/sa.svg" width="60"></span> Health, food, quality`,
     'contact-btn': 'Contact us now',
 
     //Features Section
@@ -31,20 +31,23 @@ const translations = {
     //About-us Section
     'about-title': ' About us',
     'about-section-title': 'Your Healthy Partner',
+    'about-desc-one':
+      'A healthy, high-protein and low-calorie product manufactured in Belgium with 3 distinct flavors available in various locations in the Kingdom. Kareem Protein is interested in providing healthy products and snacks suitable for all age groups at an affordable price and high quality.',
+    'desc-title': 'Componetry :',
     'about-desc':
       'Milk Protein concentrate, water, skimmed, milk, stabiliser, carrageenan.',
     flavors: 'flavors :',
     'flavors-desc': 'chocolate , strawberry , vanilla.',
     sweetener: 'Sweetener :',
-    'sweetener-desc': 'sucralose.',
+    'sweetener-desc': 'Less than 11g with no added sugar.',
     colour: 'colour :',
     'colour-desc': 'beta carotene.',
     calories: 'calories :',
-    'calories-desc': '152',
+    'calories-desc': 'Less than 152 calories',
     protein: 'Protein :',
     'protein-desc': '26G',
     fat: 'fat :',
-    'fat-desc': '0.6G',
+    'fat-desc': 'Less than 0.6 grams',
 
     //contact Section
     'contact-title': "Let's talk",
@@ -67,7 +70,7 @@ const translations = {
 
     //hero Section
     'hero-title': 'شريكك الصحي',
-    'hero-desc': `كريم بروتين في السعودية <span><img src="assets/images/flag-icon/sa.svg" width="70"></span> صحة، غذاء، جودة`,
+    'hero-desc': `كريم بروتين في السعودية <span><img src="assets/images/flag-icon/sa.svg" width="60"><br></span> صحة، غذاء، جودة`,
     'contact-btn': 'اتصل بنا الآن',
 
     //Features Section
@@ -88,21 +91,24 @@ const translations = {
     //About-us Section
     'about-title': ' من نحن',
     'about-section-title': 'شريكك الصحي',
+    'about-desc-one':
+      'منتج صحي عالي البروتين وقليل السعرات مصنع في بلجيكا مع 3 نكهات مميزة متواجد في مختلف مواقع المملكة، يهتم كريم بروتين بتقديم منتجات ووجبات خفيفة صحية مناسب لجميع الفئات العمرية بسعر مناسب و جودة عالية.',
+    'desc-title': 'المكونات: ',
     'about-desc':
       'مركز بروتين الحليب ، ماء ، حليب خالي الدسم ، مثبت كاراجينان، محلي السكرالوز',
 
     flavors: 'النكهات :',
     'flavors-desc': 'شوكولاتة ، فراولة ، فانيليا.',
     sweetener: 'السكر:',
-    'sweetener-desc': 'قل من 11 جرام من غير سكر مضاف',
+    'sweetener-desc': 'أقل من 11 جرام من غير سكر مضاف',
     colour: 'الالوان :',
     'colour-desc': 'بيتا كاروتين.',
     calories: 'السعرات الحراريه :',
-    'calories-desc': '  أقل من 152 سعره',
+    'calories-desc': '  أقل من ١٥٢ سعره',
     protein: 'بروتين :',
-    'protein-desc': '26G',
+    'protein-desc': '٢٦ ج',
     fat: 'دهون :',
-    'fat-desc': 'اقل من 0.6 جرام',
+    'fat-desc': 'اقل من ٠,٦ جرام',
 
     //contact Section
     'contact-title': 'لنتحدث',
