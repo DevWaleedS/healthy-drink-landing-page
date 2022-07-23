@@ -1,105 +1,116 @@
 const translations = {
   // English translations
-  "en": {
-      "page-title" : "Kareem Protein",
-      "home": "Home",
-      "features": "features",
-      "about": "about",
-      "contact-us": "Contact us",
-      "English": "English",
-      "Arabic": "Arabic",
-      
-      //hero Section
-    "hero-title": "Your Healthy Partner",
-    "hero-desc": "These combinations are based on consumer favorites, tried and tested by the real experts- You!",
-    "contact-btn": "Contact us now",
+  en: {
+    'page-title': 'Kareem Protein',
+    home: 'Home',
+    features: 'features',
+    about: 'about',
+    'contact-us': 'Contact us',
+    English: 'English',
+    Arabic: 'Arabic',
+
+    //hero Section
+    'hero-title': 'Your Healthy Partner',
+    'hero-desc': `Kareem Protein in Saudi Arabia <span><img src="assets/images/flag-icon/sa.svg" width="70"></span> Health, food, quality`,
+    'contact-btn': 'Contact us now',
 
     //Features Section
-    "offreing": "Offreing",
-    "features-title": "Our Amazing Features",
-    "healthy": "Healthy",
-    "healthy-desc": "Healthy drink that also comes with vitamins and minerals, this drink does even better than you may know.",
-    "naturals": "Naturals",
-    "naturals-desc": "It’s also rich in immune-boosting vitamin C, making it one of our favorite healthy drinks to fight off colds.",
-    "tasty": "Tasty",
-    "tasty-desc": "Recommend starting your day with Kareem Protein. Kareem Protein is a surprisingly powerful immune booster.",
-    
+    offreing: 'Offreing',
+    'features-title': 'Our Amazing Features',
+    healthy: 'Healthy',
+    'healthy-desc':
+      'A healthy high-protein, low-calorie, low-fat drink. Suitable for building muscle and losing weight.',
+    naturals: 'Naturals',
+    'naturals-desc': 'Made of skimmed milk with the finest sweeteners.',
+    tasty: 'Tasty',
+    'tasty-desc': `We recommend starting your day with a protein cream. And at any time, quality and taste with 3 different flavors factory in Belgium <span><img src="assets/images/flag-icon/be.svg" width="30"></span> .`,
+    'longer-time': 'Longer Time, Lower Price',
+    'longer-time-desc':
+      'With a one-year shelf life at room temperature, at an affordable price',
+
     //About-us Section
-    "about-title": " About us",
-    "about-section-title": "Your Healthy Partner",
-    "about-desc": "Milk Protein concentrate, water, skimmed, milk, stabiliser, carrageenan.",
-    "acidity": "acidity regulator :",
-    "acidity-desc": "trisodium citrate.",
-    "flavors": "flavors :",
-    "flavors-desc": "chocolate , strawberry , vanilla.",
-    "sweetener": "Sweetener :",
-    "sweetener-desc": "sucralose.",
-    "colour": "colour :",
-    "colour-desc": "beta carotene.",
-    "calories": "calories :",
-    "calories-desc": "152",
-    "protein": "Protein :",
-    "protein-desc": "26G",
-    "fat": "fat :",
-    "fat-desc": "0.6G",
+    'about-title': ' About us',
+    'about-section-title': 'Your Healthy Partner',
+    'about-desc':
+      'Milk Protein concentrate, water, skimmed, milk, stabiliser, carrageenan.',
+    flavors: 'flavors :',
+    'flavors-desc': 'chocolate , strawberry , vanilla.',
+    sweetener: 'Sweetener :',
+    'sweetener-desc': 'sucralose.',
+    colour: 'colour :',
+    'colour-desc': 'beta carotene.',
+    calories: 'calories :',
+    'calories-desc': '152',
+    protein: 'Protein :',
+    'protein-desc': '26G',
+    fat: 'fat :',
+    'fat-desc': '0.6G',
 
     //contact Section
-    "contact-title": "Let's talk",
-    "contact-desc": "If you want to reserve our Product, contact us and we will attend to you quickly, with our 24/7 Email service.",
-  
-    "coyright" : `Copyright &copy; <span>Kareem Protein</span> All Rights Reserved`
+    'contact-title': "Let's talk",
+    whatsapp: 'Whatsapp',
+    instagram: 'Instagram',
+    email: 'Email',
+
+    coyright: `Copyright &copy; <span>Kareem Protein</span> All Rights Reserved`,
   },
 
   // Arabic translations
-  "ar": {
-    "page-title" : "كريم بروتين",
-    "home": " الرئيسية",
-    "features": "المميزات",
-    "about": "من نحن",
-    "contact-us": "تواصل معنا",
-    "English": "الإنجليزية",
-    "Arabic": "العربية",
+  ar: {
+    'page-title': 'كريم بروتين',
+    home: ' الرئيسية',
+    features: 'المميزات',
+    about: 'من نحن',
+    'contact-us': 'تواصل معنا',
+    English: 'الإنجليزية',
+    Arabic: 'العربية',
 
     //hero Section
-    "hero-title": "شريكك الصحي",
-    "hero-desc": "يستند هذا المنتج إلى تفضيلات المستهلك ، وقد تم تجربته واختباره بواسطة خبراء حقيقيين - لك أنت!",
-    "contact-btn": "اتصل بنا الآن",
+    'hero-title': 'شريكك الصحي',
+    'hero-desc': `كريم بروتين في السعودية <span><img src="assets/images/flag-icon/sa.svg" width="70"></span> صحة، غذاء، جودة`,
+    'contact-btn': 'اتصل بنا الآن',
 
     //Features Section
-    "offreing": "عرض رائع",
-    "features-title": "مميزاتنا الرائعه",
-    "healthy": "صحي",
-    "healthy-desc": "مشروب صحي يحتوي أيضًا على فيتامينات ومعادن ، هذا المشروب أفضل مما قد تعرفه.",
-    "naturals": "طبيعي",
-    "naturals-desc": "كما أنه غني بفيتامين سي المعزز للمناعة ، مما يجعله أحد المشروبات الصحية المفضلة لدينا لمحاربة نزلات البرد.",
-    "tasty": "لذيذ",
-    "tasty-desc": "نوصي ببدء يومك مع كريم بروتين. كريم بروتين هو معزز قوي للمناعة بشكل مدهش.",
-    
+    offreing: 'عرض رائع',
+    'features-title': 'مميزاتنا الرائعه',
+    healthy: 'صحي',
+    'healthy-desc':
+      'مشروب صحي عالي البروتين وقليل السعرات والدهون. مناسب للبناء العضلي وخسارة الوزن',
+    naturals: 'طبيعي',
+    'naturals-desc': 'مصنع من حليب خالي الدسم ومع اجود أنواع المحليات.',
+    tasty: 'جودة وطعم',
+    'tasty-desc': `نوصي ببدء يومك مع كريم بروتين. وفي أي وقت، جودة وطعم مع 3 نكهات مختلفة مصنع في بلجيكا <span><img src="assets/images/flag-icon/be.svg" width="30"></span> .`,
+
+    'longer-time': 'مدة أطول، سعر اقل',
+    'longer-time-desc':
+      'بمدة تخزين لمدة سنة كاملة في درجة حرارة الغرفة، بسعر في متناول اليد',
+
     //About-us Section
-    "about-title": " من نحن",
-    "about-section-title": "شريكك الصحي",
-    "about-desc": "مركز بروتين الحليب ، ماء ، منزوع الدسم ، حليب ، مثبت ، كاراجينان.",
-    "acidity": "منظم الحموضة :",
-    "acidity-desc": "السايتريت ثلاثي الصوديوم.",
-    "flavors": "النكهات :",
-    "flavors-desc": "شوكولاتة ، فراولة ، فانيليا.",
-    "sweetener": "السكر:",
-    "sweetener-desc": "السكرالوز.",
-    "colour": "الالوان :",
-    "colour-desc": "بيتا كاروتين.",
-    "calories": "السعرات الحراريه :",
-    "calories-desc": "152",
-    "protein": "بروتين :",
-    "protein-desc": "26G",
-    "fat": "دهون :",
-    "fat-desc": "0.6G",
+    'about-title': ' من نحن',
+    'about-section-title': 'شريكك الصحي',
+    'about-desc':
+      'مركز بروتين الحليب ، ماء ، حليب خالي الدسم ، مثبت كاراجينان، محلي السكرالوز',
+
+    flavors: 'النكهات :',
+    'flavors-desc': 'شوكولاتة ، فراولة ، فانيليا.',
+    sweetener: 'السكر:',
+    'sweetener-desc': 'قل من 11 جرام من غير سكر مضاف',
+    colour: 'الالوان :',
+    'colour-desc': 'بيتا كاروتين.',
+    calories: 'السعرات الحراريه :',
+    'calories-desc': '  أقل من 152 سعره',
+    protein: 'بروتين :',
+    'protein-desc': '26G',
+    fat: 'دهون :',
+    'fat-desc': 'اقل من 0.6 جرام',
 
     //contact Section
-    "contact-title": "لنتحدث",
-    "contact-desc": "إذا كنت ترغب في حجز منتجنا ، فاتصل بنا وسنقوم بالرد عليك بسرعة ، من خلال خدمة البريد الإلكتروني على مدار الساعة طوال أيام الأسبوع.",
-    
-    "coyright" : ` جميع الحقوق محفوظه&copy; <span>كريم بروتين</span>`
+    'contact-title': 'لنتحدث',
+    whatsapp: 'واتساب',
+    instagram: 'الانستقرام',
+    email: 'البريد الالكتروني',
 
+    coyright: ` جميع الحقوق محفوظه&copy; <span>كريم بروتين</span>`,
   },
 };
 
