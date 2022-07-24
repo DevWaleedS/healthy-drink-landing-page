@@ -11,7 +11,7 @@ const translations = {
 
     //hero Section
     'hero-title': 'Your Healthy Partner',
-    'hero-desc': `Kareem Protein in Saudi Arabia <span><img src="assets/images/flag-icon/sa.svg" width="60"></span> Health, food, quality`,
+    'hero-desc': `Kareem Protein in Saudi Arabia <span><img src="assets/images/flag-icon/sa.svg" width="50"> <br></span> Health, food, quality`,
     'contact-btn': 'Contact us now',
 
     //Features Section
@@ -70,7 +70,7 @@ const translations = {
 
     //hero Section
     'hero-title': 'شريكك الصحي',
-    'hero-desc': `كريم بروتين في السعودية <span><img src="assets/images/flag-icon/sa.svg" width="60"><br></span> صحة، غذاء، جودة`,
+    'hero-desc': `كريم بروتين في السعودية <span><img src="assets/images/flag-icon/sa.svg" width="50"><br></span> صحة، غذاء، جودة`,
     'contact-btn': 'اتصل بنا الآن',
 
     //Features Section
