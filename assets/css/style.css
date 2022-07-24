@@ -397,7 +397,7 @@ header {
   line-height: 1.2;
 }
 
-.features-box h3::first-letter {
+html[dir="ltr"] .features-box h3::first-letter {
   font-size: 32px;
   font-weight: 600;
   color: var(--main-color);
